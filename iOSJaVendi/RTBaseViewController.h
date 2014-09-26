@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RTBaseViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIImageView *background;
+@property (nonatomic, strong) IBOutlet NSArray *categories;
 
 @end
 

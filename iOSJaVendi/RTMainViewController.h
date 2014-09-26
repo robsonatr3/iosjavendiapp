@@ -10,4 +10,6 @@
 
 @interface RTMainViewController : RTBaseViewController
 
+@property (nonatomic, strong) IBOutlet UITableView *categoriesTableView;
+
 @end

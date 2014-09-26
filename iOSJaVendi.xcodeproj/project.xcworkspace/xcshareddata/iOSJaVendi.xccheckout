@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4CB27208-6068-4BB9-8BE1-4D3B000CE397</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSJaVendi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>774F4247F36127B50C1196CA3882ECFA444C5E5D</key>
+		<string>https://github.com/robsonatr3/iosjavendiapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSJaVendi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>774F4247F36127B50C1196CA3882ECFA444C5E5D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/robsonatr3/iosjavendiapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>774F4247F36127B50C1196CA3882ECFA444C5E5D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>774F4247F36127B50C1196CA3882ECFA444C5E5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSJaVendi</string>
+		</dict>
+	</array>
+</dict>
+</plist>

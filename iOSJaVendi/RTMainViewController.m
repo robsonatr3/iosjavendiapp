@@ -16,22 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger) numberOfSectionsInTableView:(UITableView *)categoriesTableView
+{
+    return 1;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger) tableView:(UITableView *)categoriesTableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.categories.count;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)categoriesTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *categoriesCell = [categoriesTableView dequeueReusableCellWithIdentifier:@"CategoriesCell" forIndexPath:indexPath];
+    
+    UILabel *categoryName = (UILabel *)[self.view viewWithTag:1];
+    categoryName.text = self.categories[indexPath.row];
+    
+    return categoriesCell;
+}
 
 @end

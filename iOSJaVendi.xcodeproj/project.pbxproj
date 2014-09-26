@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		EA0DCAD319D35C5F00F48943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DCAD219D35C5F00F48943 /* main.m */; };
-		EA0DCAD619D35C5F00F48943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DCAD519D35C5F00F48943 /* AppDelegate.m */; };
-		EA0DCAD919D35C5F00F48943 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DCAD819D35C5F00F48943 /* ViewController.m */; };
+		EA0DCAD619D35C5F00F48943 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DCAD519D35C5F00F48943 /* RTAppDelegate.m */; };
+		EA0DCAD919D35C5F00F48943 /* RTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DCAD819D35C5F00F48943 /* RTBaseViewController.m */; };
 		EA0DCADC19D35C5F00F48943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0DCADA19D35C5F00F48943 /* Main.storyboard */; };
 		EA0DCADE19D35C5F00F48943 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0DCADD19D35C5F00F48943 /* Images.xcassets */; };
 		EA0DCAE119D35C5F00F48943 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0DCADF19D35C5F00F48943 /* LaunchScreen.xib */; };
 		EA0DCAED19D35C5F00F48943 /* iOSJaVendiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DCAEC19D35C5F00F48943 /* iOSJaVendiTests.m */; };
+		EA0DCAF819D35D4900F48943 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0DCAF719D35D4900F48943 /* background.png */; };
+		EA0DCAFB19D35DB800F48943 /* RTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DCAFA19D35DB800F48943 /* RTMainViewController.m */; };
+		EA0DCAFE19D361A700F48943 /* RTSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0DCAFD19D361A700F48943 /* RTSearchViewController.m */; };
+		EA7B199019D4A69300603F00 /* RTSwipeableAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B198F19D4A69300603F00 /* RTSwipeableAdsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +34,23 @@
 		EA0DCACD19D35C5F00F48943 /* iOSJaVendi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJaVendi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0DCAD119D35C5F00F48943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA0DCAD219D35C5F00F48943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA0DCAD419D35C5F00F48943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EA0DCAD519D35C5F00F48943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA0DCAD719D35C5F00F48943 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA0DCAD819D35C5F00F48943 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA0DCAD419D35C5F00F48943 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		EA0DCAD519D35C5F00F48943 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		EA0DCAD719D35C5F00F48943 /* RTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTBaseViewController.h; sourceTree = "<group>"; };
+		EA0DCAD819D35C5F00F48943 /* RTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTBaseViewController.m; sourceTree = "<group>"; };
 		EA0DCADB19D35C5F00F48943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA0DCADD19D35C5F00F48943 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA0DCAE019D35C5F00F48943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EA0DCAE619D35C5F00F48943 /* iOSJaVendiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSJaVendiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0DCAEB19D35C5F00F48943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA0DCAEC19D35C5F00F48943 /* iOSJaVendiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSJaVendiTests.m; sourceTree = "<group>"; };
+		EA0DCAF719D35D4900F48943 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		EA0DCAF919D35DB800F48943 /* RTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMainViewController.h; sourceTree = "<group>"; };
+		EA0DCAFA19D35DB800F48943 /* RTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMainViewController.m; sourceTree = "<group>"; };
+		EA0DCAFC19D361A700F48943 /* RTSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSearchViewController.h; sourceTree = "<group>"; };
+		EA0DCAFD19D361A700F48943 /* RTSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSearchViewController.m; sourceTree = "<group>"; };
+		EA7B198E19D4A69300603F00 /* RTSwipeableAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSwipeableAdsViewController.h; sourceTree = "<group>"; };
+		EA7B198F19D4A69300603F00 /* RTSwipeableAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSwipeableAdsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,17 @@
 		EA0DCACF19D35C5F00F48943 /* iOSJaVendi */ = {
 			isa = PBXGroup;
 			children = (
-				EA0DCAD419D35C5F00F48943 /* AppDelegate.h */,
-				EA0DCAD519D35C5F00F48943 /* AppDelegate.m */,
-				EA0DCAD719D35C5F00F48943 /* ViewController.h */,
-				EA0DCAD819D35C5F00F48943 /* ViewController.m */,
+				EA0DCAF619D35D3600F48943 /* images */,
+				EA0DCAD419D35C5F00F48943 /* RTAppDelegate.h */,
+				EA0DCAD519D35C5F00F48943 /* RTAppDelegate.m */,
+				EA0DCAD719D35C5F00F48943 /* RTBaseViewController.h */,
+				EA0DCAD819D35C5F00F48943 /* RTBaseViewController.m */,
+				EA0DCAF919D35DB800F48943 /* RTMainViewController.h */,
+				EA0DCAFA19D35DB800F48943 /* RTMainViewController.m */,
+				EA0DCAFC19D361A700F48943 /* RTSearchViewController.h */,
+				EA0DCAFD19D361A700F48943 /* RTSearchViewController.m */,
+				EA7B198E19D4A69300603F00 /* RTSwipeableAdsViewController.h */,
+				EA7B198F19D4A69300603F00 /* RTSwipeableAdsViewController.m */,
 				EA0DCADA19D35C5F00F48943 /* Main.storyboard */,
 				EA0DCADD19D35C5F00F48943 /* Images.xcassets */,
 				EA0DCADF19D35C5F00F48943 /* LaunchScreen.xib */,
@@ -117,6 +135,14 @@
 				EA0DCAEB19D35C5F00F48943 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0DCAF619D35D3600F48943 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EA0DCAF719D35D4900F48943 /* background.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA0DCADC19D35C5F00F48943 /* Main.storyboard in Resources */,
+				EA0DCAF819D35D4900F48943 /* background.png in Resources */,
 				EA0DCAE119D35C5F00F48943 /* LaunchScreen.xib in Resources */,
 				EA0DCADE19D35C5F00F48943 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0DCAD919D35C5F00F48943 /* ViewController.m in Sources */,
-				EA0DCAD619D35C5F00F48943 /* AppDelegate.m in Sources */,
+				EA7B199019D4A69300603F00 /* RTSwipeableAdsViewController.m in Sources */,
+				EA0DCAD919D35C5F00F48943 /* RTBaseViewController.m in Sources */,
+				EA0DCAD619D35C5F00F48943 /* RTAppDelegate.m in Sources */,
 				EA0DCAD319D35C5F00F48943 /* main.m in Sources */,
+				EA0DCAFB19D35DB800F48943 /* RTMainViewController.m in Sources */,
+				EA0DCAFE19D361A700F48943 /* RTSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +442,7 @@
 				EA0DCAF219D35C5F00F48943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA0DCAF319D35C5F00F48943 /* Build configuration list for PBXNativeTarget "iOSJaVendiTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +451,7 @@
 				EA0DCAF519D35C5F00F48943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

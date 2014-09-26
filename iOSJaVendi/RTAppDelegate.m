@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 rob. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "RTAppDelegate.h"
 
-@interface AppDelegate ()
+@interface RTAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation RTAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

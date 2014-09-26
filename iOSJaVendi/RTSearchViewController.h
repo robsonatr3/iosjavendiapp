@@ -8,6 +8,9 @@
 
 #import "RTBaseViewController.h"
 
-@interface RTSearchViewController : RTBaseViewController
+@interface RTSearchViewController : RTBaseViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+
+@property (nonatomic, strong) NSArray *priceRanges;
+@property (nonatomic, strong) IBOutlet UITableView *searchTableView;
 
 @end

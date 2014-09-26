@@ -6,22 +6,30 @@
 //  Copyright (c) 2014 rob. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RTBaseViewController.h"
 
-@interface ViewController ()
+@interface RTBaseViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RTBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setBackground:self.background];
+    self.categories = @[@"Celulares", @"Informática", @"Carros",
+                        @"Para Casa", @"Arte e Lazer", @"Tablets",
+                        @"Moda e Beleza", @"Eletrônicos", @"Bebê e Criança",
+                        @"Vídeo-Game", @"Esportes", @"Outros"];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setBackground:(UIImageView *)background
+{
+    UIImage *bg = [UIImage imageNamed:@"background.png"];
+    background = [[UIImageView alloc]initWithImage:bg];
+    background.frame = CGRectMake(0, 0, 400, 800);
+    [self.view addSubview:background];
+    [self.view sendSubviewToBack:background];
 }
 
 @end
